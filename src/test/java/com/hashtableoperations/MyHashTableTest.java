@@ -6,7 +6,7 @@ import org.junit.Test;
 public class MyHashTableTest {
 
     @Test
-    public void givenASentence_WhenWordsAreAddedToList_ShouldRememberWordFrequency() {
+    public void givenASentence_WhenWordsAreAddedToList_ShouldReturnWordFrequency() {
         String sentence = "To be or not to be";
         MyHashTable<String , Integer> myHashTable = new MyHashTable<>();
         String[] words = sentence.toLowerCase().split(" ");
